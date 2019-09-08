@@ -2,5 +2,5 @@ language: generic
 install:
   - wget https://releases.hashicorp.com/vagrant/2.2.5/vagrant_2.2.5_x86_64.deb; sudo apt update; sudo apt install ./vagrant_2.2.5_x86_64.deb
   - vagrant plugin install vagrant-reload
-  - wget https://releases.hashicorp.com/packer/1.4.3/packer_1.4.3_linux_amd64.zip; unzip ./packer_1.4.3_linux_amd64.zip
+  - wget https://releases.hashicorp.com/packer/1.4.3/packer_1.4.3_linux_amd64.zip; unzip packer_1.4.3_linux_amd64.zip 
   - wget https://download.virtualbox.org/virtualbox/6.0.12/virtualbox-6.0_6.0.12-133076~Ubuntu~xenial_amd64.deb; sudo apt install ./virtualbox-6.0_6.0.12-133076~Ubuntu~xenial_amd64.deb
